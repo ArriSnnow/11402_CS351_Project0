@@ -1,17 +1,43 @@
-# 11402_CS351_Project0
 
-# Two Sum Problem
+# Two Sum Project - Planning Phase
 
 ## Overview
-The Two Sum Problem is a classic algorithmic challenge that asks you to find two numbers in an array that add up to a specific target sum. Given an array of integers and a target value, the task is to return the indices of the two numbers that sum to the target, with the constraint that each element can only be used once.
+This repository contains the planning and implementation of the Two Sum algorithm project for CS351.
 
-## Key Characteristics
-- **Input**: An array of integers and a target integer
-- **Output**: Indices of two numbers that sum to the target
-- **Constraint**: Each element in the array may only be used once
-- **Complexity**: Optimal solutions range from O(n) time with O(n) space to O(n²) time with O(1) space
+## Project Objective
+The objective of this project is to develop an efficient solution for the Two Sum problem, where given an array of integers and a target sum, we identify two numbers that add up to the target.
 
-## Common Approaches
-1. **Brute Force**: Check all pairs (O(n²) time)
-2. **Hash Map**: Store values in a map for instant lookup (O(n) time, O(n) space)
-3. **Two Pointers**: Use sorted array with pointer technique (O(n log n) time, O(1) space)
+## Planning Phase (Current Branch)
+**Branch:** `Project Planning (MS11402-3)`
+
+### Key Activities
+- Algorithm selection and comparison
+- Complexity analysis (time and space)
+- Project roadmap definition
+- Initial brainstorming and approach documentation
+
+### Algorithm Considerations
+- Brute Force approach
+- Hash Map/Dictionary approach
+- Two Pointer technique
+
+## Project Structure
+```
+├── README.md
+├── docs/
+│   └── planning.md
+├── src/
+│   └── two_sum.py
+└── tests/
+    └── test_two_sum.py
+```
+
+## Next Steps
+1. Finalize algorithm selection
+2. Implement solution
+3. Write comprehensive tests
+4. Optimize and document code
+
+---
+
+*CS351 Project 0*
