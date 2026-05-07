@@ -1,0 +1,14 @@
+# Git history
+.git/
+
+# Build output (Docker compiles fresh)
+build/
+
+# Documentation
+docs/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
